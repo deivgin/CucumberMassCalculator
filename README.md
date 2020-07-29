@@ -11,3 +11,6 @@ The exercise:
 A cucumber is made of 95% water and 5% unchangable mass.
 After some time the water vaporised and now the cucumber is made of 90% water.
 How much did the mass change?
+
+The app should be up at:
+http://eager-tooth.surge.sh/
