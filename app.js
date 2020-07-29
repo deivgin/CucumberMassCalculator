@@ -54,11 +54,14 @@ const onSubmit = () => {
     
     let constMass = (100 - initWater)/100;
     let constChangeMass =(100 - (initWater - vaporWater))/100;
-
-    let changeInMass = (constMass / constChangeMass) * 100;
+    let changeInMass = 0;
+    
+    if(constChangeMass !== 1){
+      changeInMass = (constMass / constChangeMass) * 100;
+    }
 
     onNavigate('/answer')
-
+    console.log(constMass, constChangeMass, changeInMass);
     document.getElementById('answer').innerHTML = `${Math.round(changeInMass)}%`;
 }
 
