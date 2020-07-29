@@ -1,0 +1,81 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+head {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0 0 4rem;;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.container {
+  width: 40rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgb(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.inputGroup label {
+  color: #777;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.inputGroup input {
+  border: 0.2rem solid #f0f0f0;
+  border-radius: 0.4rem;
+  display: block;
+  width: 92%;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #3498db;
+  border: .2rem solid #3498db;
+  border-radius: .4rem;
+  color: #fff;
+  display: block;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.answer{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.answer-text{
+    color: #777;
+    text-align: center;
+    padding: 1.5rem 3rem 0;
+}
